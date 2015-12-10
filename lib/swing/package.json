@@ -1,0 +1,102 @@
+{
+  "_args": [
+    [
+      "swing",
+      "/Users/ta/Desktop/tempcode/morn"
+    ]
+  ],
+  "_from": "swing@*",
+  "_id": "swing@3.0.2",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/swing",
+  "_nodeVersion": "3.2.0",
+  "_npmUser": {
+    "email": "gk@anuary.com",
+    "name": "gajus"
+  },
+  "_npmVersion": "2.13.3",
+  "_phantomChildren": {},
+  "_requested": {
+    "name": "swing",
+    "raw": "swing",
+    "rawSpec": "",
+    "scope": null,
+    "spec": "*",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "https://registry.npmjs.org/swing/-/swing-3.0.2.tgz",
+  "_shasum": "71b7bc0f089b5116a160ff7618839ad7de1cb3be",
+  "_shrinkwrap": null,
+  "_spec": "swing",
+  "_where": "/Users/ta/Desktop/tempcode/morn",
+  "author": {
+    "email": "gk@anuary.com",
+    "name": "Gajus Kuizinas",
+    "url": "http://gajus.com"
+  },
+  "bugs": {
+    "url": "https://github.com/gajus/swing/issues"
+  },
+  "dependencies": {
+    "hammerjs": "^2.0.4",
+    "lodash": "^3.10.1",
+    "raf": "^3.1.0",
+    "rebound": "^0.0.13",
+    "sister": "^3.0.0",
+    "vendor-prefix": "^0.1.0"
+  },
+  "description": "A swipeable cards interface. The swipe-left/swipe-right for yes/no input. As seen in apps like Jelly and Tinder.",
+  "devDependencies": {
+    "babel": "^5.8.23",
+    "babel-loader": "^5.3.2",
+    "chai": "^3.2.0",
+    "del": "^2.0.1",
+    "gulp": "^3.9.0",
+    "gulp-babel": "^5.2.1",
+    "gulp-eslint": "^1.0.0",
+    "gulp-mocha": "^2.1.3",
+    "gulp-sourcemaps": "^1.5.2",
+    "gulp-util": "^3.0.6",
+    "jsdom": "^6.3.0",
+    "jsonfile": "^2.2.1",
+    "mocha": "^2.3.0",
+    "sinon": "^1.16.1",
+    "webpack": "^1.12.1"
+  },
+  "directories": {},
+  "dist": {
+    "shasum": "71b7bc0f089b5116a160ff7618839ad7de1cb3be",
+    "tarball": "http://registry.npmjs.org/swing/-/swing-3.0.2.tgz"
+  },
+  "gitHead": "b4e722803db67523e34b74348677c30d299d91fb",
+  "homepage": "https://github.com/gajus/swing#readme",
+  "keywords": [
+    "cards",
+    "swipe",
+    "swipeable"
+  ],
+  "license": "BSD-3-Clause",
+  "main": "./dist/es5/index.js",
+  "maintainers": [
+    {
+      "name": "gajus",
+      "email": "gk@anuary.com"
+    }
+  ],
+  "name": "swing",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gajus/swing.git"
+  },
+  "scripts": {
+    "test": "babel-node ./node_modules/.bin/gulp test",
+    "watch": "babel-node ./node_modules/.bin/gulp watch"
+  },
+  "version": "3.0.2"
+}

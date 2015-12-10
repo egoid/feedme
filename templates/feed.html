@@ -1,0 +1,30 @@
+<ion-view title="feed me">
+
+
+<ion-content scroll="false">
+
+    <link rel="stylesheet" href="./css/card-stack.css">
+        <script src="lib/swing/dist/browser/swing.js"></script>
+        <script src="lib/angular-swing/dist/swing.js"></script>
+
+    <div id="viewport">
+        <ul class="stack" swing-stack swing-options="options">
+            <li
+                swing-card
+                swing-on-throwout="throwout(eventName, eventObject)"
+                swing-on-throwoutleft="throwoutleft(eventName, eventObject)"
+                swing-on-throwoutright="throwoutright(eventName, eventObject)"
+                swing-on-throwin="throwin(eventName, eventObject)"
+                swing-on-dragstart="dragstart(eventName, eventObject)"
+                swing-on-dragmove="dragmove(eventName, eventObject)"
+                swing-on-dragend="dragend(eventName, eventObject)"
+                ng-repeat="card in cards" ng-class="card.name">{{card.symbol}}</li>
+        </ul>
+    </div>
+
+    <div id="source">
+
+    </div>
+
+    </ion-content>
+</ion-view>
